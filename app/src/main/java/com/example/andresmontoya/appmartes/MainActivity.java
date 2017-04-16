@@ -1,5 +1,6 @@
 package com.example.andresmontoya.appmartes;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -31,6 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button:
                 label1.setText("se presiono el boton 1");
                 Toast.makeText(getApplicationContext(), "se oprimio el boton 1",Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(this, Actividad2.class);
+                startActivity(intent);
                 break;
             case R.id.button2:
                 label1.setText("se presiono el boton 2");

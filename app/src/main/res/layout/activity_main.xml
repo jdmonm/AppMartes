@@ -26,6 +26,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:text="boton1"
+        android:onClick="sendMessage"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_editor_absoluteY="447dp" />

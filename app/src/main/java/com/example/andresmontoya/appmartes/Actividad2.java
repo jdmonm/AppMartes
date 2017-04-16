@@ -20,6 +20,7 @@ public class Actividad2 extends AppCompatActivity implements View.OnClickListene
         radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
 
         button = (Button)findViewById(R.id.button3);
+        button.setOnClickListener(this);
 
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
